@@ -1,0 +1,13 @@
+Exercício de tradução:
+DELETE FROM times WHERE nome = 'Vasco';
+UPDATE jogadores SET salario = 10000 WHERE idjogadores = 3;
+INSERT INTO jogadores (nome, salario, idtimes) VALUES ('Xuxa', 4000, 1);
+INSERT INTO times (nome, anodefundacao) VALUES ('Olaria', 40000);
+SELECT nome, salario FROM jogadores WHERE salario > 2000;
+SELECT nome, valor FROM time WHERE anodefundacao < 1950;
+SELECT nome, salario FROM jogadores WHERE salario < 400000;
+SELECT DISTINCT nome FROM jogadores;
+SELECT anodefundacao, nome FROM times ORDER BY nome;
+SELECT MAX(salario) FROM jogadores;
+SELECT COUNT(nome) FROM times;
+SELECT AVG(salario) FROM jogadores WHERE datanascimento > '2000-01-10';
