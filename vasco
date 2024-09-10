@@ -1,0 +1,4 @@
+UPDATE times SET valor = 100000 WHERE nome = 'Vasco';
+UPDATE times SET nome = 'EC Bahia' WHERE nome = 'Bahia';
+DELETE FROM times WHERE nome = 'NomeDoTimeInseridoNaQuestao1';
+DELETE FROM jogadores WHERE nome = 'NomeDoJogadorInseridoNaQuestao3';
