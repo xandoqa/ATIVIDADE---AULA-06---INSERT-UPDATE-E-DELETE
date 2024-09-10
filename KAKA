@@ -1,0 +1,4 @@
+INSERT INTO atendentes (nome, telefone) VALUES ('NomeDoAtendente', 'TelefoneDoAtendente');
+INSERT INTO pizzas (sabor, preco) VALUES ('NovoSabor', Preco);
+UPDATE pizzas SET quantidade_critica = 5, preco = 50.00 WHERE sabor = 'NovoSabor';
+DELETE FROM jogadores WHERE nome = 'KAKA';
