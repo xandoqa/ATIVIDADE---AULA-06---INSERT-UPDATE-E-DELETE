@@ -1,0 +1,23 @@
+Respostas das questões teóricas:
+
+Comando para inserir dados: O comando básico é INSERT INTO. Pode-se inserir múltiplas linhas ou dados de outra tabela no mesmo comando.
+
+Chave primária autoincremento: Deve-se evitar passar o valor da chave, pois ele é gerado automaticamente pelo sistema, prevenindo erros de duplicidade.
+
+Inserir múltiplas linhas: É possível usar um único comando INSERT INTO com múltiplos conjuntos de valores.
+
+Formato de datas e horas no MySQL: O formato de datas é YYYY-MM-DD e o de horas é HH:MM:SS.
+
+Inserir chave estrangeira sem valor na tabela original: Não é permitido, pois o valor da chave estrangeira deve existir na tabela de referência para manter a integridade.
+
+Comando para excluir dados: Usa-se o DELETE com uma condição WHERE específica para evitar a exclusão de todos os registros.
+
+Critérios de exclusão: O uso de chaves primárias é o melhor critério. Podem-se usar vários critérios no WHERE, o que oferece maior controle, mas exige cautela.
+
+Apagar chave primária que é chave estrangeira: Isso pode gerar problemas de integridade referencial ou exclusões em cascata, dependendo da configuração.
+
+Comando para atualizar dados: O comando UPDATE é utilizado com a cláusula SET para modificar valores específicos.
+
+Cláusula WHERE em atualizações: A WHERE pode e deve ser usada para limitar a atualização a registros específicos.
+
+Melhor atributo para filtro: A chave primária é o melhor filtro para garantir a atualização de um registro único.
